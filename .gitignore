@@ -1,13 +1,12 @@
 # Virtual environment
 venv/
 
-# Data files (too large for GitHub)
-data/*.csv
-data/*.zip
+# Data files - too large for GitHub
+data/raw/
+data/processed/
 
 # Saved models
-models/*.pkl
-models/*.joblib
+models/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -15,9 +14,17 @@ models/*.joblib
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# VS Code settings
+# VS Code
 .vscode/
 
-# Kaggle API key (NEVER upload this)
+# Kaggle API key - NEVER upload this
 kaggle.json
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
