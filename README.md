@@ -49,6 +49,7 @@ RetentionAI/
 ## Dataset
 - Source: [Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - Version: 1 (downloaded April 2026)
+- License: copyright-authors
 - Size: 7,043 rows × 21 columns
 - Download and place in `data/raw/telco_churn.csv`
 
@@ -84,4 +85,4 @@ uvicorn api.main:app --reload
 ## Author
 **Kashish Sachdeva**  
 B.E. CSE AI/ML | Chitkara University | Batch 2027  
-[GitHub](#) | [LinkedIn](#)
+[kashish-sachdeva-ds](#) | [kashish-sachdeva-ds](#)
